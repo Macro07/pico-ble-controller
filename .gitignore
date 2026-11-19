@@ -1,0 +1,49 @@
+# --- SISTEMA OPERATIVO ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- ANDROID STUDIO / GRADLE / FLUTTER ---
+*.iml
+.gradle/
+/local.properties
+/.idea/
+.DS_Store
+/build/
+/captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+bin/
+gen/
+out/
+
+# --- PYTHON / CIRCUITPYTHON (Raspberry Pi Pico) ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- ARDUINO / PLATFORMIO (ESP32-C3) ---
+.pio/
+.vscode/
+*.bin
+*.elf
+*.map
+
+# --- FILE TEMPORANEI E LOG DEL PROGETTO ---
+*.log
+temp/
+output/*.txt
